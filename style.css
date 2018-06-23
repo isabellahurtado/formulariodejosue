@@ -14,8 +14,11 @@ h1 {
 }
 section {
 	margin: 0 auto;
-	width: 75%;
-	background-color: #ddd;
+	width: 80%;
+	background-color: #fff;
+	padding: 10px;
+	border:  1px solid #000;
+}
 }
 section form {
 	padding: : 2rem;
@@ -34,6 +37,24 @@ section form > div > label,
 section form > div >input {
 	display: block;
 }
-section form > div >input {
+section form > div > input, select {
 	width: 90%;
+	padding: 6px;
+}
+
+button {
+	background-color: #0040FF;
+	color: #fff;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    font : 15px "typewriter", sans-serif;
+}
+
+.encabezado-y-pie-del-form {
+	background-color: #D8D8D8; 
+	padding: 10px;
+	border: 1px solid #6E6E6E;
+	margin-bottom: 6px;
+	margin-left: -10px;
 }
