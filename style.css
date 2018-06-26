@@ -51,10 +51,15 @@ button {
     font : 15px "typewriter", sans-serif;
 }
 
-.encabezado-y-pie-del-form {
-	background-color: #D8D8D8; 
-	padding: 10px;
-	border: 1px solid #6E6E6E;
-	margin-bottom: 6px;
-	margin-left: -10px;
+form div:first-child {
+     display: block;
+     width: 81.5%;
+     margin:-20px -1.02px -1.02 px 0;
+     background-color: #f4eded;
+     padding: 0.00px 10px 3px;
+     border-radius: 2px 2px 2px 2px;
+     border: 1px solid #e5e3e3;
+     font-family: center;
+     color: #3d3c3c;
 }
+
